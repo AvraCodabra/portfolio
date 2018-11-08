@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.image.*?>
+<?import javafx.scene.canvas.*?>
+<?import java.lang.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<Pane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="mmn16.MyController">
+   <children>
+      <Button fx:id="buttonInsert" layoutX="312.0" layoutY="22.0" mnemonicParsing="false" onAction="#onInsertClick" text="Insert" />
+      <TextField fx:id="tf_ID" layoutX="180.0" layoutY="22.0" prefHeight="39.0" prefWidth="120.0" promptText="ID" />
+      <TextField fx:id="tf_name" layoutX="14.0" layoutY="22.0" prefHeight="39.0" prefWidth="148.0" promptText="name (optional)" />
+      <Button fx:id="buttonDelete" layoutX="387.0" layoutY="22.0" mnemonicParsing="false" onAction="#onDeleteClick" text="Delete" />
+      <Button fx:id="buttonSuccessor" layoutX="581.0" layoutY="22.0" mnemonicParsing="false" onAction="#onSuccessorClick" text="Successor" />
+      <Button fx:id="buttonPredecessor" layoutX="690.0" layoutY="22.0" mnemonicParsing="false" onAction="#onPredecessorClick" text="Predecessor" />
+      <Button fx:id="buttonSearch" layoutX="469.0" layoutY="22.0" mnemonicParsing="false" onAction="#onSearchClick" text="Search" />
+      <Button fx:id="buttonMaximum" layoutX="14.0" layoutY="129.0" mnemonicParsing="false" onAction="#onMaximumClick" text="Maximum" />
+      <Button fx:id="buttonMinimum" layoutX="233.0" layoutY="129.0" mnemonicParsing="false" onAction="#onMinimumClick" text="Minimum" />
+      <Button fx:id="buttonMedian" layoutX="131.0" layoutY="129.0" mnemonicParsing="false" onAction="#onMedianClick" text="Median" />
+      <Button fx:id="buttonInorder" layoutX="339.0" layoutY="426.0" mnemonicParsing="false" onAction="#onInorderClick" text="Inorder" />
+      <Button fx:id="buttonPreorder" layoutX="328.0" layoutY="477.0" mnemonicParsing="false" onAction="#onPreorderClick" text="Preorder" />
+      <Button fx:id="buttonPostorder" layoutX="319.0" layoutY="528.0" mnemonicParsing="false" onAction="#onPostorderClick" text="Postorder" />
+      <TextField fx:id="tf_outPut" alignment="TOP_LEFT" editable="false" layoutX="14.0" layoutY="75.0" prefHeight="39.0" prefWidth="401.0" promptText="status line" />
+      <TextArea fx:id="ta_outPut" editable="false" layoutX="425.0" layoutY="75.0" prefHeight="513.0" prefWidth="376.0" promptText="Tree Walk Out Put" />
+      <Label layoutX="14.0" layoutY="521.0" text="טל בן אברהם" />
+      <Label layoutX="14.0" layoutY="548.0" text="305210668" />
+   </children>
+</Pane>
